@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body {
+    width: 0%;
+    height: 130vh;
+    background: url(img/BR-en-20220523-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    background-repeat: no-repeat;
+}
+
+.conteiner{
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bloco{
+    min-width: 380px;
+    display: flex;
+    height: 650px;
+    background-color: black;
+    border-radius: 5px;
+    left: 35vw;
+    position: absolute;
+}
+
+.bloco-w {
+    flex-direction: column;
+    min-width: 380px;
+    display: flex;
+    height: 650px;
+    border-radius: 5px;
+    left: 35vw;
+    top: -130px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+ .bloco-w h1{
+    color: rgb(255, 255, 255);
+    top: 140px;
+    left: 47px;
+    position: absolute;
+    letter-spacing: 1px;
+ }
+
+.bloco-w .input-wr input{
+    
+    margin: 8px;
+    height: 40px;
+    width: 270px;
+    padding-left: 13px;
+    padding-top: 4px;
+    text-align: left;
+    border-radius: 5px;
+    background-color: rgb(56, 54, 54);
+    border: none;
+}
+.bloco-w button {
+    margin: 30px;
+    width: 277px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(167, 35, 35);
+    color: white;
+}
+
+.checkbox {
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    top: 400px;
+    position: absolute;
+    left: 48px;
+    font-family: sans-serif;
+}
+
+.checkbox input:nth-child(1){
+    width: 17px;
+    height: 17px;
+}
+
+.checkbox p {
+    font-size: 13px;
+}
+
+.input-wr {
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.input-wr .p-w{
+    color: white;
+    
+}
+
+.input-wr .email-l{
+    left: 70px;
+    color:rgb(143, 143, 143);
+    position: absolute;
+    top: 239px;
+    font-family: sans-serif;
+    font-size: 14px;    
+    user-select: none;
+    cursor: default;
+    visibility:hidden;
+    transition: 0.2s ease-in-out ;
+}
+
+.input-wr input:focus + label{
+    transform: translateY(-14px);
+    font-size: 11px;
+    left: 60px;
+    visibility: visible;
+}
+
+.input-wr .input-m::placeholder{
+    font-size: 14px;
+    transition: 0.2s ease-in-out;
+}
+
+.input-wr input:focus::placeholder{
+    filter: opacity(0%);
+    font-size: 11px;
+    left: 60px;
+    transform: translateY(-14px);
+    
+}
+
+.input-wr .email-s{
+    color:rgb(143, 143, 143);
+    left: 69px;
+    position: absolute;
+    top: 300px;
+    font-family: sans-serif;
+    font-size: 14px;
+    user-select: none;
+    cursor: default;
+    visibility:hidden;
+    transition: 0.2s ease-in-out ;
+}
+
+.bloco-w .help{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    left: 215px;
+    top: 413px;
+    position: absolute;
+}
+
+.bloco-w a:hover {
+    text-decoration: underline;
+}
+
+.bloco-w .assine{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    left: 55px;
+    top: 550px;
+    position: absolute;
+}
+
+.bloco-w .assine a{
+    color: white;
+    text-decoration: none;
+}
+
+.bloco-w .assine a:hover{
+    text-decoration: underline;
+}
+
+.bloco-w .robot {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    left: 46px;
+    top: 600px;
+    position: absolute;
+}
+
+.bloco-w .robot a{
+    color: #0071eb;
+    text-decoration: none;
+}
+
+.logo-n{
+    width: 150px;
+    height: 40px;
+}
+
